@@ -5,20 +5,20 @@
 
 <petclinic:layout pageName="login">
 
-    <h2>로그인</h2>
+    <h2>LOG IN</h2>
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <form action="<spring:url value='/login'/>" method="post" class="form-horizontal">
                 <div class="form-group">
-                    <label class="control-label col-sm-3" for="username">아이디</label>
+                    <label class="control-label col-sm-3" for="username">ID</label>
                     <div class="col-sm-9">
                         <input type="text" id="username" name="username" class="form-control" required/>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label col-sm-3" for="password">비밀번호</label>
+                    <label class="control-label col-sm-3" for="password">PASSWORD</label>
                     <div class="col-sm-9">
                         <input type="password" id="password" name="password" class="form-control" required/>
                     </div>
@@ -26,7 +26,7 @@
 
                 <div class="form-group">
                     <div class="col-sm-offset-3 col-sm-9">
-                        <button type="submit" class="btn btn-primary">로그인</button>
+                        <button type="submit" class="btn btn-primary">LOG IN</button>
                     </div>
                 </div>
 
