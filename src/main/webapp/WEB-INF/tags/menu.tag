@@ -41,7 +41,6 @@
                             <span>Error</span>
                         </petclinic:menuItem>
 
-                        <!-- 로그아웃 버튼 -->
                         <li>
                             <a href="<spring:url value='/logout'/>">
                                 <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
@@ -50,7 +49,6 @@
                         </li>
                     </c:when>
 
-                    <!-- 로그인 안 되어 있으면 -->
                     <c:otherwise>
                         <li>
                             <a href="<spring:url value='/login'/>">
