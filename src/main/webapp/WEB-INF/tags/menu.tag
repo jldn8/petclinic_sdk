@@ -19,7 +19,7 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <c:choose>
-                    <c:when test="${not empty sessionSope.loginUser}">
+                    <c:when test="${not empty sessionScope.loginUser}">
                         <petclinic:menuItem active="${name eq 'home'}" url="/" title="home page">
                             <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                             <span>Home</span>
