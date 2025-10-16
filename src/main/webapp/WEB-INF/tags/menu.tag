@@ -3,6 +3,7 @@
 <%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags" %>
 <%@ attribute name="name" required="true" rtexprvalue="true"
               description="Name of the active menu: home, owners, vets or error" %>
+<%@ tag session="true %>
 
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
@@ -61,4 +62,10 @@
             </ul>
         </div>
     </div>
+    
+    <p style="color:red;">
+    [DEBUG] sessionScope.loginUser = ${sessionScope.loginUser}
+    </p>
+
 </nav>
+
