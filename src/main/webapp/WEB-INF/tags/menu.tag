@@ -62,10 +62,5 @@
             </ul>
         </div>
     </div>
-    
-    <p style="color:red;">
-    [DEBUG] sessionScope.loginUser = ${sessionScope.loginUser}
-    </p>
-
 </nav>
 
