@@ -1,14 +1,5 @@
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
-<%-- Placed at the end of the document so the pages load faster --%>
-<spring:url value="/webjars/jquery/3.5.1/jquery.min.js" var="jQuery"/>
-<script src="${jQuery}"></script>
-
-<%-- jquery-ui.js file is really big so we only load what we need instead of loading everything --%>
-<spring:url value="/webjars/jquery-ui/1.12.1/jquery-ui.min.js" var="jQueryUiCore"/>
-<script src="${jQueryUiCore}"></script>
-
-<%-- Bootstrap --%>
-<spring:url value="/webjars/bootstrap/3.3.6/js/bootstrap.min.js" var="bootstrapJs"/>
-<script src="${bootstrapJs}"></script>
-
+<footer style="margin-top:60px; color:#aaa; font-size:0.9em; text-align:center; padding:20px 0; border-top:1px solid #eee;">
+    <p>© 2025 PetClinic+ | Cloud-Based Veterinary Data Integration | Team SDK</p>
+</footer>
