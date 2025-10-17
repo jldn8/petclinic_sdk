@@ -4,7 +4,7 @@
 <%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags" %>
 
 <petclinic:layout pageName="home">
-    <div class="d-flex align-items-center justify-content-center" style="height:100vh;">
+    <div class="d-flex align-items-center justify-content-center">
         <div class="text-center">
 
             <h2 style="font-size: 30px; font-weight:700; color:#2c3e50;">PetClinic+</h2>
