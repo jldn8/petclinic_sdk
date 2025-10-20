@@ -15,8 +15,6 @@
     <div class="container xd-container">
 
         <jsp:doBody/>
-
-        <petclinic:pivotal/>
     </div>
 </div>
 <petclinic:footer/>
