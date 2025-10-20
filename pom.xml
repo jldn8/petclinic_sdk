@@ -313,9 +313,22 @@
         <defaultGoal>install</defaultGoal>
         <finalName>petclinic</finalName>
         <resources>
+            <!-- 1) 기본 리소스는 필터링 true 유지하되, data-access.properties는 제외 -->
             <resource>
                 <directory>${basedir}/src/main/resources</directory>
                 <filtering>true</filtering>
+                <excludes>
+                    <exclude>spring/data-access.properties</exclude>
+                </excludes>
+            </resource>
+
+            <!-- 2) data-access.properties만 필터링 false로 별도 복사 -->
+            <resource>
+                <directory>${basedir}/src/main/resources</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>spring/data-access.properties</include>
+                </includes>
             </resource>
         </resources>
         <testResources>
